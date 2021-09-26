@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+ int marks;
+ printf("\n PLEASE ENTER THE MARKS OF THE STUDENT:");
+ scanf("%d",&marks);
+ if(marks>=85 && marks<=100)
+ {
+ 	printf("\n THE GRADE OF THE STUDENT IS:A");
+ }
+ else if(marks>=70 && marks<=84)
+ {
+ 	printf("\n THE GRADE OF THE STUDENT IS:B");
+ }
+ else if(marks>=55 && marks<=69)
+ {
+ 	printf("\n THE GRADE OF THE STUDENT IS:C");
+ }
+ else if(marks>=40 && marks<=54)
+ {
+ 	printf("\n THE GRADE OF THE STUDENT IS:D");
+ }
+ else
+ {
+ 	printf("\n THE GRADE OF THE STUDENT IS:F");
+ }
+	return 0;
+}
